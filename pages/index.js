@@ -1,7 +1,18 @@
+// eslint-disable-next-line import/no-unresolved
 import { Footer, Navbar } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
+import {
+  About,
+  Explore,
+  Feedback,
+  GetStarted,
+  Hero,
+  Insights,
+  WhatsNew,
+  World,
+// eslint-disable-next-line import/no-unresolved
+} from '../sections';
 
-const Page = () => (
+const Home = () => (
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
     <Hero />
@@ -25,4 +36,4 @@ const Page = () => (
   </div>
 );
 
-export default Page;
+export default Home;
